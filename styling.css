@@ -1,0 +1,50 @@
+.jumbotron{
+    background: url(images/img21.jpg) center center;
+    background-size: cover;
+    height: 600px;
+}
+
+.logo{
+    width: 75px;
+    height: 75px;
+}
+.feture h1{
+    margin-top: 30px;
+   color: white;  
+}
+.feture {
+   color: white;  
+}
+.btn-warning{
+    margin-top: 20px;
+    font-weight: bold;
+}
+.trail{
+
+   text-align: center;
+   padding: 0px 0px 70px 0px; 
+}
+.trail a{
+    margin-right: 40px ;
+    margin-top: 20px;
+}
+.footer{
+    background-color: rgb(46, 2, 2);
+    padding: 20px;
+    color: white;
+}
+
+@media (min-width:484px) and (max-width:768px){
+  .jumbotron{
+      height: 450px;
+  } 
+  .logo{
+      width: 50px;
+      height: 50px;
+  } 
+  feture h1 {
+      margin-top: 10px;
+  }
+  
+}
+
